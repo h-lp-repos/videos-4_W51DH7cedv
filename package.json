@@ -1,0 +1,27 @@
+{
+  "name": "videos-4-w51dh7cedv",
+  "version": "1.0.0",
+  "description": "TypeScript examples for Lesson 2: Vector Databases: Indexing and Retrieval for LLMs",
+  "scripts": {
+    "build": "tsc -b",
+    "test": "jest",
+    "start:video-3": "ts-node video-3-exact-knn/src/index.ts",
+    "start:video-4": "ts-node video-4-ann-indexing-tuning/src/index.ts",
+    "start:video-5": "ts-node video-5-hybrid-search/src/hybrid.ts",
+    "start:video-6": "ts-node video-6-batching-incremental-updates/src/batching.ts",
+    "start:video-7": "ts-node video-7-benchmark-harness/src/benchmark.ts",
+    "start:video-8": "ts-node video-8-cloud-demo-template/src/cloud.ts"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "@pinecone-database/pinecone": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "ts-node": "^10.4.0",
+    "jest": "^27.4.3",
+    "ts-jest": "^27.1.1",
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.7"
+  }
+}
